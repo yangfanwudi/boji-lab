@@ -1,0 +1,33 @@
+:root {
+  --bg: #0b0f0c;
+  --panel: #121912;
+  --ink: #e8f3e9;
+  --ink-dim: #9db3a0;
+  --neon: #b6ff3d;
+  --line: #24321f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'PingFang SC', 'HarmonyOS Sans SC',
+    'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
